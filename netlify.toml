@@ -1,6 +1,6 @@
 [build]
   functions = "NetlifyTest/functions"
 [[redirects]]
-  from = "/.netlify/functions/:function/*"
-  to = "/.netlify/functions/:function/:splat"
+  from = "/.netlify/functions/*"
+  to = "/.netlify/functions/:splat"
   status = 200
