@@ -2,5 +2,5 @@
   functions = "NetlifyTest/functions"
 [[redirects]]
   from = "/.netlify/functions/*"
-  to = "/.netlify/:splat"
+  to = "/.netlify/functions/:splat"
   status = 200
